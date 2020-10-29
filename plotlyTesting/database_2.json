@@ -1,0 +1,698 @@
+{
+    "/32934673/": {
+        "Title": "Advances in Ca2+ modulation of gastrointestinal anion secretion and its dysregulation in digestive disorders (Review).",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32934673/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/32636802/": {
+        "Title": "Low HbA1c With Normal Hemoglobin in a Diabetes Patient Caused by PIEZO1 Gene Variant: A Case Report.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32636802/",
+        "Appearance": 2,
+        "Citedby": [
+            "/29712913/",
+            "/31263454/"
+        ],
+        "Layer": 0
+    },
+    "/32576830/": {
+        "Title": "Piezo2 expressed in proprioceptive neurons is essential for skeletal integrity.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32576830/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/32503336/": {
+        "Title": "Intracellular Ca2+ Signalling in the Pathogenesis of Acute Pancreatitis: Recent Advances and Translational Perspectives.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32503336/",
+        "Appearance": 2,
+        "Citedby": [
+            "/29712913/",
+            "/31999644/"
+        ],
+        "Layer": 0
+    },
+    "/32484440/": {
+        "Title": "Shear stress activates ADAM10 sheddase to regulate Notch1 via the Piezo1 force sensor in endothelial cells.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32484440/",
+        "Appearance": 2,
+        "Citedby": [
+            "/29712913/",
+            "/31533470/"
+        ],
+        "Layer": 0
+    },
+    "/32281947/": {
+        "Title": "TRPV4 helps Piezo1 put the squeeze on pancreatic acinar cells.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32281947/",
+        "Appearance": 2,
+        "Citedby": [
+            "/29712913/",
+            "/31999644/"
+        ],
+        "Layer": 0
+    },
+    "/32195335/": {
+        "Title": "An array of 60,000 antibodies for proteome-scale antibody generation and target discovery.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32195335/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/32116794/": {
+        "Title": "Protonation of Piezo1 Impairs Cell-Matrix Interactions of Pancreatic Stellate Cells.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32116794/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/31999644/": {
+        "Title": "TRPV4 channel opening mediates pressure-induced pancreatitis initiated by Piezo1 activation.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31999644/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/31882169/": {
+        "Title": "Effect of Pulsed Focused Ultrasound on the Native Pancreas.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31882169/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/31750303/": {
+        "Title": "Formation and Function of Mammalian Epithelia: Roles for Mechanosensitive PIEZO1 Ion Channels.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31750303/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/31727906/": {
+        "Title": "Piezo1 channel activation mimics high glucose as a stimulator of insulin release.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31727906/",
+        "Appearance": 2,
+        "Citedby": [
+            "/29712913/",
+            "/30085186/"
+        ],
+        "Layer": 0
+    },
+    "/31533470/": {
+        "Title": "Force Sensing by Piezo Channels in Cardiovascular Health and Disease.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31533470/",
+        "Appearance": 3,
+        "Citedby": [
+            "/29712913/",
+            "/31263454/",
+            "/30085186/"
+        ],
+        "Layer": 0
+    },
+    "/31437459/": {
+        "Title": "Using Yoda-1 to mimic laminar flow in vitro: A tool to simplify drug testing.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31437459/",
+        "Appearance": 2,
+        "Citedby": [
+            "/29712913/",
+            "/30085186/"
+        ],
+        "Layer": 0
+    },
+    "/31263454/": {
+        "Title": "Mechanosensitive Ion Channel Piezo1 Regulates Diet-Induced Adipose Inflammation and Systemic Insulin Resistance.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31263454/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/30931481/": {
+        "Title": "Emerging concepts of shear stress in placental development and function.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/30931481/",
+        "Appearance": 2,
+        "Citedby": [
+            "/29712913/",
+            "/30085186/"
+        ],
+        "Layer": 0
+    },
+    "/30660731/": {
+        "Title": "Genetics, Cell Biology, and Pathophysiology of Pancreatitis.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/30660731/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/30406572/": {
+        "Title": "Tissue engineering the cancer microenvironment-challenges and opportunities.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/30406572/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/30085186/": {
+        "Title": "Piezo1 channels are mechanosensors in human fetoplacental endothelial cells.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/30085186/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/29928898/": {
+        "Title": "Transient High Pressure in Pancreatic Ducts Promotes Inflammation and Alters Tight Junctions via Calcineurin Signaling in Mice.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/29928898/",
+        "Appearance": 1,
+        "Citedby": [
+            "/29712913/"
+        ],
+        "Layer": 0
+    },
+    "/33023886/": {
+        "Title": "Development of a straight vertebrate body axis.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/33023886/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32576830/"
+        ],
+        "Layer": 1
+    },
+    "/32887220/": {
+        "Title": "pH-Channeling in Cancer: How pH-Dependence of Cation Channels Shapes Cancer Pathophysiology.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32887220/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32116794/"
+        ],
+        "Layer": 1
+    },
+    "/32676078/": {
+        "Title": "The Role of TRPV4 in Regulating Innate Immune Cell Function in Lung Inflammation.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32676078/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31999644/"
+        ],
+        "Layer": 1
+    },
+    "/32433396/": {
+        "Title": "American Pancreatic Association Frank Brooks Symposium: Fifty Years of Pancreatic Cell Biology.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32433396/",
+        "Appearance": 2,
+        "Citedby": [
+            "/31999644/",
+            "/30660731/"
+        ],
+        "Layer": 1
+    },
+    "/32928310/": {
+        "Title": "Pulsed focused ultrasound enhances the therapeutic effect of mesenchymal stromal cell-derived extracellular vesicles in acute kidney injury.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32928310/",
+        "Appearance": 2,
+        "Citedby": [
+            "/31882169/",
+            "/32157802/"
+        ],
+        "Layer": 1
+    },
+    "/32157802/": {
+        "Title": "The role of ultrasound in enhancing mesenchymal stromal cell-based therapies.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32157802/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31882169/"
+        ],
+        "Layer": 1
+    },
+    "/33027663/": {
+        "Title": "Sphingomyelinase Disables Inactivation in Endogenous PIEZO1 Channels.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/33027663/",
+        "Appearance": 2,
+        "Citedby": [
+            "/31533470/",
+            "/32305040/"
+        ],
+        "Layer": 1
+    },
+    "/32499717/": {
+        "Title": "The Lectin LecA Sensitizes the Human Stretch-Activated Channel TREK-1 but Not Piezo1 and Binds Selectively to Cardiac Non-myocytes.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32499717/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31533470/"
+        ],
+        "Layer": 1
+    },
+    "/32305040/": {
+        "Title": "RBCs prevent rapid PIEZO1 inactivation and expose slow deactivation as a mechanism of dehydrated hereditary stomatocytosis.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32305040/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31533470/"
+        ],
+        "Layer": 1
+    },
+    "/31939110/": {
+        "Title": "Stretch modulation of cardiac contractility: importance of myocyte calcium during the slow force response.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31939110/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31533470/"
+        ],
+        "Layer": 1
+    },
+    "/32455794/": {
+        "Title": "Integrating Biophysics in Toxicology.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32455794/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31437459/"
+        ],
+        "Layer": 1
+    },
+    "/32385276/": {
+        "Title": "Adipocyte Piezo1 mediates obesogenic adipogenesis through the FGF1/FGFR1 signaling pathway in mice.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32385276/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31263454/"
+        ],
+        "Layer": 1
+    },
+    "/32352713/": {
+        "Title": "Epigenetic Alterations Are Associated With Gastric Emptying Disturbances in Diabetes Mellitus.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32352713/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31263454/"
+        ],
+        "Layer": 1
+    },
+    "/31469582/": {
+        "Title": "A Cation Channel Protects the Stretched Lung.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31469582/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31263454/"
+        ],
+        "Layer": 1
+    },
+    "/32630006/": {
+        "Title": "Go with the Flow-Trophoblasts in Flow Culture.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32630006/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30931481/"
+        ],
+        "Layer": 1
+    },
+    "/32172168/": {
+        "Title": "Utero-placental vascular remodeling during late gestation in Sprague-Dawley rats.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32172168/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30931481/"
+        ],
+        "Layer": 1
+    },
+    "/32923091/": {
+        "Title": "TAB3 overexpression promotes NF-\u03baB activation and inflammation in acute pancreatitis.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32923091/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30660731/"
+        ],
+        "Layer": 1
+    },
+    "/32806545/": {
+        "Title": "The Remedial Potential of Lycopene in Pancreatitis through Regulation of Autophagy.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32806545/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30660731/"
+        ],
+        "Layer": 1
+    },
+    "/32678161/": {
+        "Title": "Loss of chymotrypsin-like protease (CTRL) alters intrapancreatic protease activation but not pancreatitis severity in mice.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32678161/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30660731/"
+        ],
+        "Layer": 1
+    },
+    "/32322336/": {
+        "Title": "Tanshinone IIA Protects against Acute Pancreatitis in Mice by Inhibiting Oxidative Stress via the Nrf2/ROS Pathway.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32322336/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30660731/"
+        ],
+        "Layer": 1
+    },
+    "/32116022/": {
+        "Title": "Ethanol feeding accelerates pancreatitis progression in CPA1 N256K mutant mice.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32116022/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30660731/"
+        ],
+        "Layer": 1
+    },
+    "/31847184/": {
+        "Title": "Altered Bioenergetics of Blood Cell Sub-Populations in Acute Pancreatitis Patients.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31847184/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30660731/"
+        ],
+        "Layer": 1
+    },
+    "/31688587/": {
+        "Title": "Precision Medicine in Pancreatic Disease-Knowledge Gaps and Research Opportunities: Summary of a National Institute of Diabetes and Digestive and Kidney Diseases Workshop.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31688587/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30660731/"
+        ],
+        "Layer": 1
+    },
+    "/31661534/": {
+        "Title": "Common variants in glyoxalase I do not increase chronic pancreatitis risk.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31661534/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30660731/"
+        ],
+        "Layer": 1
+    },
+    "/31088717/": {
+        "Title": "Genetic variants in acute, acute recurrent and chronic pancreatitis affect the progression of disease in children.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31088717/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30660731/"
+        ],
+        "Layer": 1
+    },
+    "/33014989/": {
+        "Title": "Investigation of Cancer Cell Migration and Proliferation on Synthetic Extracellular Matrix Peptide Hydrogels.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/33014989/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30406572/"
+        ],
+        "Layer": 1
+    },
+    "/32671058/": {
+        "Title": "When Stiffness Matters: Mechanosensing in Heart Development and Disease.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32671058/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30406572/"
+        ],
+        "Layer": 1
+    },
+    "/32382486/": {
+        "Title": "Designer Self-Assembling Peptide Hydrogels to Engineer 3D Cell Microenvironments for Cell Constructs Formation and Precise Oncology Remodeling in Ovarian Cancer.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32382486/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30406572/"
+        ],
+        "Layer": 1
+    },
+    "/32116785/": {
+        "Title": "Signaling in the Physiology and Pathophysiology of Pancreatic Stellate Cells - a Brief Review of Recent Advances.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32116785/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30406572/"
+        ],
+        "Layer": 1
+    },
+    "/31861579/": {
+        "Title": "Cell-Based Mechanosensation, Epigenetics, and Non-Coding RNAs in Progression of Cardiac Fibrosis.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31861579/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30406572/"
+        ],
+        "Layer": 1
+    },
+    "/31597314/": {
+        "Title": "PIEZO1 and TRPV4, which Are Distinct Mechano-Sensors in the Osteoblastic MC3T3-E1 Cells, Modify Cell-Proliferation.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31597314/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30085186/"
+        ],
+        "Layer": 1
+    },
+    "/30917529/": {
+        "Title": "Placenta Transcriptome Profiling in Intrauterine Growth Restriction (IUGR).",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/30917529/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30085186/"
+        ],
+        "Layer": 1
+    },
+    "/32948247/": {
+        "Title": "Facilitating islet transplantation using a three-step approach with mesenchymal stem cells, encapsulation, and pulsed focused ultrasound.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32948247/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32157802/"
+        ],
+        "Layer": 2
+    },
+    "/32850728/": {
+        "Title": "Acoustic Radiation or Cavitation Forces From Therapeutic Ultrasound Generate Prostaglandins and Increase Mesenchymal Stromal Cell Homing to Murine Muscle.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32850728/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32157802/"
+        ],
+        "Layer": 2
+    },
+    "/32521623/": {
+        "Title": "HSP70-Mediated NLRP3 Inflammasome Suppression Underlies Reversal of Acute Kidney Injury Following Extracellular Vesicle and Focused Ultrasound Combination Therapy.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32521623/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32157802/"
+        ],
+        "Layer": 2
+    },
+    "/32346546/": {
+        "Title": "Reversing Acute Kidney Injury Using Pulsed Focused Ultrasound and MSC Therapy: A Role for HSP-Mediated PI3K/AKT Signaling.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32346546/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32157802/"
+        ],
+        "Layer": 2
+    },
+    "/32290286/": {
+        "Title": "A Novel Approach to Deliver Therapeutic Extracellular Vesicles Directly into the Mouse Kidney via Its Arterial Blood Supply.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32290286/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32157802/"
+        ],
+        "Layer": 2
+    },
+    "/31997161/": {
+        "Title": "A new decade for Biophysical Reviews and a look into the future of biophysics.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31997161/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31939110/"
+        ],
+        "Layer": 2
+    },
+    "/32648930/": {
+        "Title": "Identification and characterization of adipose surface epitopes.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32648930/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32385276/"
+        ],
+        "Layer": 2
+    },
+    "/32640833/": {
+        "Title": "Fas ligand neutralization attenuates hypertension, endothelin-1, and placental inflammation in an animal model of HELLP syndrome.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32640833/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32172168/"
+        ],
+        "Layer": 2
+    },
+    "/33007416/": {
+        "Title": "Natural product derived phytochemicals in managing acute lung injury by multiple mechanisms.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/33007416/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32322336/"
+        ],
+        "Layer": 2
+    },
+    "/33087766/": {
+        "Title": "Assessment of the course of acute pancreatitis in the light of aetiology: a systematic review and meta-analysis.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/33087766/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31847184/"
+        ],
+        "Layer": 2
+    },
+    "/32046088/": {
+        "Title": "TGF-\u00df1 Induces Changes in the Energy Metabolism of White Adipose Tissue-Derived Human Adult Mesenchymal Stem/Stromal Cells In Vitro.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32046088/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31847184/"
+        ],
+        "Layer": 2
+    },
+    "/31688586/": {
+        "Title": "Barriers and Research Priorities for Implementing Precision Medicine.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31688586/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31688587/"
+        ],
+        "Layer": 2
+    },
+    "/32742109/": {
+        "Title": "Clinical review of acute, recurrent, and chronic pancreatitis: Recent updates of 2013-2019 literature.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32742109/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31088717/"
+        ],
+        "Layer": 2
+    },
+    "/32664253/": {
+        "Title": "Conjugates of Chitosan and Calcium Alginate with Oligoproline and Oligohydroxyproline Derivatives for Potential Use in Regenerative Medicine.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32664253/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32382486/"
+        ],
+        "Layer": 2
+    },
+    "/32527266/": {
+        "Title": "Three-dimensional culture and clinical drug responses of a highly metastatic human ovarian cancer HO-8910PM cells in nanofibrous microenvironments of three hydrogel biomaterials.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32527266/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32382486/"
+        ],
+        "Layer": 2
+    },
+    "/32370075/": {
+        "Title": "Pancreatic Cancer and Its Microenvironment-Recent Advances and Current Controversies.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32370075/",
+        "Appearance": 1,
+        "Citedby": [
+            "/32116785/"
+        ],
+        "Layer": 2
+    },
+    "/32671813/": {
+        "Title": "Cell shape: effects on gene expression and signaling.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32671813/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31861579/"
+        ],
+        "Layer": 2
+    },
+    "/32481599/": {
+        "Title": "Functional Expression of Piezo1 in Dorsal Root Ganglion (DRG) Neurons.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32481599/",
+        "Appearance": 1,
+        "Citedby": [
+            "/31597314/"
+        ],
+        "Layer": 2
+    },
+    "/32718305/": {
+        "Title": "Insights into the skin of caecilian amphibians from gene expression profiles.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32718305/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30917529/"
+        ],
+        "Layer": 2
+    },
+    "/32709900/": {
+        "Title": "Accounting for diverse evolutionary forces reveals mosaic patterns of selection on human preterm birth loci.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32709900/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30917529/"
+        ],
+        "Layer": 2
+    },
+    "/32668742/": {
+        "Title": "Differential Alternative Splicing Genes and Isoform Regulation Networks of Rapeseed (Brassica napus L.) Infected with Sclerotinia sclerotiorum.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32668742/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30917529/"
+        ],
+        "Layer": 2
+    },
+    "/32443673/": {
+        "Title": "Placental Microarray Profiling Reveals Common mRNA and lncRNA Expression Patterns in Preeclampsia and Intrauterine Growth Restriction.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32443673/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30917529/"
+        ],
+        "Layer": 2
+    },
+    "/32258210/": {
+        "Title": "Defining the Optimal FVIII Transgene for Placental Cell-Based Gene Therapy to Treat Hemophilia A.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32258210/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30917529/"
+        ],
+        "Layer": 2
+    },
+    "/31936801/": {
+        "Title": "Modulation of Placental Gene Expression in Small-for-Gestational-Age Infants.",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31936801/",
+        "Appearance": 1,
+        "Citedby": [
+            "/30917529/"
+        ],
+        "Layer": 2
+    }
+}
