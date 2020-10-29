@@ -13,20 +13,21 @@ class Networkgraph():
         with open('database.json') as f:
             data = json.load(f)
 
-        df = pd.DataFrame(columns=['article', 'source', 'link'])
+        df = pd.DataFrame(columns=['article', 'source', 'link', 'year'])
 
         pos = 0
 
         for i, ID in enumerate(data):
-
-            entry = len(data[ID]['Citedby'])
+            entry = len(data[ID]['Referencing'])
 
             for j in range(entry):
                 link = 'https://pubmed.ncbi.nlm.nih.gov' + ID
-                df.loc[pos] = [ID, data[ID]['Citedby'][j], link]
+                df.loc[pos] = [ID, data[ID]['Referencing'][j], link, data[ID]['Year']]
 
                 pos +=1
-        ##%% Imports
+
+        df.head()
+        #%% Imports
 
         import networkx as nx
         # from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
@@ -78,13 +79,14 @@ class Networkgraph():
             hoverinfo='text',
             marker=dict(
                 showscale=True,
-                colorscale='RdBu',
+                colorscale='YlGnBu',
+                # RdBu
                 reversescale=True,
                 color=[],
                 size=15,
                 colorbar=dict(
                     thickness=10,
-                    title='Node Connections',
+                    title='Article Connections',
                     xanchor='left',
                     titleside='right'
                 ),
@@ -92,14 +94,14 @@ class Networkgraph():
 
         plotAnnotes = []
         countAnnotes = []
-        i = 0
+
         for node in G.nodes():
             x, y = G.nodes[node]['pos']
             node_trace['x'] += tuple([x])
             node_trace['y'] += tuple([y])
+            
+            link = 'https://pubmed.ncbi.nlm.nih.gov' + str(node)
 
-            link = df['link'][i]
-            # print(link)
             plotAnnotes.append(dict(x=x,
                                 y=y,
                                 text=f"""<a href="{link}">Link</a>""".format("Text"),
@@ -111,14 +113,15 @@ class Networkgraph():
             #                     text='# of connections: '+str(len(adjacencies[1])),
             #                     showarrow=False
             #                     ))                   
-            i += 1
 
-        ##%% Color node points
+        #%% Color node points
         node_adjacencies = []
         node_text = []
         for node, adjacencies in enumerate(G.adjacency()):
             node_adjacencies.append(len(adjacencies[1]))
-            node_text.append('# of connections: '+str(len(adjacencies[1])) + '\n' + df['link'][node][-10:])
+            node_text.append('Connections: '+str(len(adjacencies[1])))
+
+            # node_text.append('# of connections: '+str(len(adjacencies[1])) + '\n' + df['link'][node][-10:])
             # node_text.append(f"""<a href='{df['link'][node]}'> {df['link'][node]}</a>""".format("Text"))
             # node_text.append(dict(x=G.nodes[node]['pos'][0],
             #                     y=G.nodes[node]['pos'][1],
@@ -171,4 +174,7 @@ class Networkgraph():
             ])
 
         fig.show()
-        # %%
+
+#%%
+# net = Networkgraph()
+# net.display()

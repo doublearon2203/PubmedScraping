@@ -11,7 +11,7 @@ from network_graph import Networkgraph
 
 networkgraph = Networkgraph()
 
-total_layers = 4
+total_layers = 3
 
 PATH = 'C:\sdk\chromedriver\chromedriver.exe'
 driver = webdriver.Chrome(PATH)
@@ -178,5 +178,5 @@ except Exception as e:
 finally:
     time.sleep(5)
     driver.quit()
-    # networkgraph.display()
+    networkgraph.display()
 # %%

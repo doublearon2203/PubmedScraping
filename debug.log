@@ -10,3 +10,9 @@
 [1028/144505.301:ERROR:exception_snapshot_win.cc(99)] thread ID 3032 not found in process
 [1028/161030.682:ERROR:directory_reader_win.cc(43)] FindFirstFile: Das System kann den angegebenen Pfad nicht finden. (0x3)
 [1028/232512.479:ERROR:directory_reader_win.cc(43)] FindFirstFile: Das System kann den angegebenen Pfad nicht finden. (0x3)
+[1029/201053.759:ERROR:process_reader_win.cc(123)] NtOpenThread: {Zugriff verweigert} Ein Prozess hat einen Zugriff auf ein Objekt angefordert, aber ihm wurden nicht die Rechte für den Zugriff erteilt. (0xc0000022)
+[1029/201053.761:ERROR:exception_snapshot_win.cc(99)] thread ID 19252 not found in process
+[1029/201053.761:ERROR:process_reader_win.cc(123)] NtOpenThread: {Zugriff verweigert} Ein Prozess hat einen Zugriff auf ein Objekt angefordert, aber ihm wurden nicht die Rechte für den Zugriff erteilt. (0xc0000022)
+[1029/201053.762:ERROR:exception_snapshot_win.cc(99)] thread ID 16376 not found in process
+[1029/201053.794:ERROR:process_reader_win.cc(123)] NtOpenThread: {Zugriff verweigert} Ein Prozess hat einen Zugriff auf ein Objekt angefordert, aber ihm wurden nicht die Rechte für den Zugriff erteilt. (0xc0000022)
+[1029/201053.794:ERROR:exception_snapshot_win.cc(99)] thread ID 2132 not found in process
