@@ -2,7 +2,7 @@
 import pandas as pd
 import json
 
-with open('database_test.json') as f:
+with open('database.json') as f:
     data = json.load(f)
 
 df = pd.DataFrame(columns=['article', 'source', 'link'])
@@ -21,13 +21,13 @@ for i, ID in enumerate(data):
 ##%% Imports
 
 import networkx as nx
-from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
+# from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
 import plotly.graph_objs as go
-import plotly
+# import plotly
 
 network_df = df
 
-init_notebook_mode(connected=True)
+# init_notebook_mode(connected=True)
 
 A = list(network_df["source"].unique())
 B = list(network_df["article"].unique())
@@ -82,6 +82,7 @@ node_trace = go.Scatter(
         ),
         line=dict(width=0)))
 
+#%%
 plotAnnotes = []
 countAnnotes = []
 i = 0
@@ -91,7 +92,8 @@ for node in G.nodes():
     node_trace['y'] += tuple([y])
 
     link = df['link'][i]
-    # print(link)
+    print(link)
+    print(node)
     plotAnnotes.append(dict(x=x,
                         y=y,
                         text=f"""<a href="{link}">Link</a>""".format("Text"),
@@ -105,7 +107,7 @@ for node in G.nodes():
     #                     ))                   
     i += 1
 
-##%% Color node points
+#%% Color node points
 node_adjacencies = []
 node_text = []
 for node, adjacencies in enumerate(G.adjacency()):

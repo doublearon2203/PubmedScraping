@@ -6,6 +6,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import json
+import os
+from network_graph import Networkgraph
+
+networkgraph = Networkgraph()
+
 
 PATH = 'C:\sdk\chromedriver\chromedriver.exe'
 driver = webdriver.Chrome(PATH)
@@ -14,13 +19,29 @@ driver = webdriver.Chrome(PATH)
 # startArticle = 'https://pubmed.ncbi.nlm.nih.gov/32141569/'
 
 # 4 Quellen:
-# startArticle = 'https://pubmed.ncbi.nlm.nih.gov/31811279/'
+startArticle = 'https://pubmed.ncbi.nlm.nih.gov/31811279/'
 
 # 21 Cites:
-startArticle = 'https://pubmed.ncbi.nlm.nih.gov/21098570/'
+# startArticle = 'https://pubmed.ncbi.nlm.nih.gov/21098570/'
 
 driver.get(startArticle)
 database = {}
+
+def get_startArticle():
+
+    try:
+        articleDetails = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "article-details")))
+    
+    except:
+        print('No Starting Article Found')
+
+    heading = articleDetails.find_element_by_id('full-view-heading')
+    heading_title = heading.find_element_by_class_name('heading-title')
+
+    print(heading_title.text)
+
+
+    
 
 def check_show_more_button():
 
@@ -115,12 +136,14 @@ def scrape_citedby_articles(sourceID, layer):
 
 
 try:
-    startID = startArticle[-10:]
-    population = 0
-    scrape_citedby_articles(startID, population)
+    print('eskalation')
+    get_startArticle()
+    # startID = startArticle[-10:]
+    # population = 0
+    # scrape_citedby_articles(startID, population)
 
-    for i in range(2):
-        open_new_links(i+1)
+    # for i in range(0):
+    #     open_new_links(i+1)
 
 except Exception as e:
     print(e)
@@ -128,4 +151,5 @@ except Exception as e:
 finally:
     time.sleep(5)
     driver.quit()
+    # networkgraph.display()
 # %%
