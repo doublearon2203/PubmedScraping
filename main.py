@@ -11,6 +11,7 @@ from network_graph import Networkgraph
 
 networkgraph = Networkgraph()
 
+total_layers = 4
 
 PATH = 'C:\sdk\chromedriver\chromedriver.exe'
 driver = webdriver.Chrome(PATH)
@@ -18,7 +19,7 @@ driver = webdriver.Chrome(PATH)
 # 49Quellen:
 # startArticle = 'https://pubmed.ncbi.nlm.nih.gov/32141569/'
 
-# 4 Quellen:
+# 5 Quellen:
 startArticle = 'https://pubmed.ncbi.nlm.nih.gov/31811279/'
 
 # 21 Cites:
@@ -36,9 +37,22 @@ def get_startArticle():
         print('No Starting Article Found')
 
     heading = articleDetails.find_element_by_id('full-view-heading')
-    heading_title = heading.find_element_by_class_name('heading-title')
+    
+    cit = heading.find_element_by_class_name('cit')
+    year = cit.text[:4]
 
+    heading_title = heading.find_element_by_class_name('heading-title')
     print(heading_title.text)
+    ID = startArticle[-10:]
+
+    database[ID] = {
+                'Title': heading_title.text,
+                'Year': year,
+                'Link': startArticle,
+                'Appearance': 1,
+                'Referencing': [],
+                'Layer': 0
+            }
 
 
     
@@ -80,6 +94,7 @@ def open_new_links(layer):
         # articleDetails = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "article-details")))
         # time.sleep(2)
 
+
         scrape_citedby_articles(child_sourceID, layer)
         driver.close()
         driver.switch_to.window(driver.window_handles[0])
@@ -89,6 +104,14 @@ def scrape_citedby_articles(sourceID, layer):
 
     try:
         articleDetails = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "article-details")))
+
+        # Get year of source article
+        heading = articleDetails.find_element_by_id('full-view-heading')
+        cit = heading.find_element_by_class_name('cit')
+        year = cit.text[:4]
+
+        database[sourceID]['Year'] = year
+
         citedby = articleDetails.find_element_by_id('citedby')
 
     except:
@@ -117,9 +140,10 @@ def scrape_citedby_articles(sourceID, layer):
         if ID not in database:
             database[ID] = {
                 'Title': title.text,
+                'Year': " ",
                 'Link': link,
                 'Appearance': 1,
-                'Citedby': [sourceID],
+                'Referencing': [sourceID],
                 'Layer': layer
             }
         
@@ -127,7 +151,7 @@ def scrape_citedby_articles(sourceID, layer):
             database[ID]['Appearance'] = database[ID]['Appearance'] + 1
             print('Appearance count of article increased and citedby added')
             app_count += 1
-            database[ID]['Citedby'].append(sourceID)
+            database[ID]['Referencing'].append(sourceID)
 
     with open('database.json', 'w') as f:
         json.dump(database, f, indent=4)
@@ -136,14 +160,17 @@ def scrape_citedby_articles(sourceID, layer):
 
 
 try:
-    print('eskalation')
+    # print('eskalation')
     get_startArticle()
-    # startID = startArticle[-10:]
-    # population = 0
-    # scrape_citedby_articles(startID, population)
 
-    # for i in range(0):
-    #     open_new_links(i+1)
+    startID = startArticle[-10:]
+    population = 1
+    scrape_citedby_articles(startID, population)
+
+    for i in range(total_layers-2):
+        # print('open new links')
+        open_new_links(i+2)
+        
 
 except Exception as e:
     print(e)
