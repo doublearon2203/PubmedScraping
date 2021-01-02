@@ -1,3 +1,10 @@
+import pandas as pd
+import json
+import networkx as nx
+import plotly.graph_objs as go
+import plotly.io as pio
+
+pio.renderers.default = "browser"
 #%% JSON to dataframe
 
 class Networkgraph():
@@ -5,12 +12,9 @@ class Networkgraph():
     def __init__(self):
         self.test = 0
 
-    def display(self):
+    def display(self, path):
 
-        import pandas as pd
-        import json
-
-        with open('database.json') as f:
+        with open(path) as f:
             data = json.load(f)
 
         df = pd.DataFrame(columns=['article', 'source', 'link', 'year'])
@@ -26,24 +30,13 @@ class Networkgraph():
 
                 pos +=1
 
-        df.head()
-        #%% Imports
-
-        import networkx as nx
-        # from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
-        import plotly.graph_objs as go
-        # import plotly
-
         network_df = df
-
-        # init_notebook_mode(connected=True)
 
         A = list(network_df["source"].unique())
         B = list(network_df["article"].unique())
         node_list = set(A+B)
 
         # #%% Creating nodes and edges and add to graph
-
         G = nx.Graph()
         for i in node_list:
             G.add_node(i)
@@ -106,13 +99,7 @@ class Networkgraph():
                                 y=y,
                                 text=f"""<a href="{link}">Link</a>""".format("Text"),
                                 showarrow=False
-                                ))
-
-            # countAnnotes.append(dict(x=x,
-            #                     y=y,
-            #                     text='# of connections: '+str(len(adjacencies[1])),
-            #                     showarrow=False
-            #                     ))                   
+                                ))         
 
         #%% Color node points
         node_adjacencies = []
@@ -120,20 +107,6 @@ class Networkgraph():
         for node, adjacencies in enumerate(G.adjacency()):
             node_adjacencies.append(len(adjacencies[1]))
             node_text.append('Connections: '+str(len(adjacencies[1])))
-
-            # node_text.append('# of connections: '+str(len(adjacencies[1])) + '\n' + df['link'][node][-10:])
-            # node_text.append(f"""<a href='{df['link'][node]}'> {df['link'][node]}</a>""".format("Text"))
-            # node_text.append(dict(x=G.nodes[node]['pos'][0],
-            #                     y=G.nodes[node]['pos'][1],
-            #                     text="""<a href="https://plot.ly/">{}</a>""".format("Text"),
-            #                     showarrow=False
-            #                     ))
-            # countAnnotes.append(dict(x=x,
-            #                     y=y,
-            #                     text='# of connections: '+str(len(adjacencies[1])),
-            #                     showarrow=False
-            #                     ))   
-
 
         node_trace.marker.color = node_adjacencies
         node_trace.text = node_text
@@ -159,7 +132,7 @@ class Networkgraph():
                     x=0.4,
                     y=1.2,
                     buttons=list([
-                        dict(label="Apperance Count",
+                        dict(label="Appearance Count",
                             method="update",
                             args=[{"visible": [True, True]},
                                 {"annotations": countAnnotes,
@@ -174,7 +147,3 @@ class Networkgraph():
             ])
 
         fig.show()
-
-#%%
-# net = Networkgraph()
-# net.display()
