@@ -1,0 +1,80 @@
+{
+    "/31811279/": {
+        "Title": "Microbiota in pancreatic health and disease: the next frontier in microbiome research",
+        "Year": "2020",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/31811279/",
+        "Appearance": 1,
+        "Referencing": [],
+        "Layer": 0
+    },
+    "/33255941/": {
+        "Title": "Lactobacillus Attenuate the Progression of Pancreatic Cancer Promoted by Porphyromonas Gingivalis in K-rasG12D Transgenic Mice.",
+        "Year": "2020",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/33255941/",
+        "Appearance": 1,
+        "Referencing": [
+            "/31811279/"
+        ],
+        "Layer": 1
+    },
+    "/33139601/": {
+        "Title": "Pancreatic Diseases and Microbiota: A Literature Review and Future Perspectives.",
+        "Year": "2020",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/33139601/",
+        "Appearance": 1,
+        "Referencing": [
+            "/31811279/"
+        ],
+        "Layer": 1
+    },
+    "/32962112/": {
+        "Title": "The Pancreatic Microbiome is Associated with Carcinogenesis and Worse Prognosis in Males and Smokers.",
+        "Year": "2020",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32962112/",
+        "Appearance": 1,
+        "Referencing": [
+            "/31811279/"
+        ],
+        "Layer": 1
+    },
+    "/32872220/": {
+        "Title": "Microbiome Patterns in Matched Bile, Duodenal, Pancreatic Tumor Tissue, Drainage, and Stool Samples: Association with Preoperative Stenting and Postoperative Pancreatic Fistula Development.",
+        "Year": "2020",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32872220/",
+        "Appearance": 1,
+        "Referencing": [
+            "/31811279/"
+        ],
+        "Layer": 1
+    },
+    "/32457759/": {
+        "Title": "The Role and Potential Application of Antimicrobial Peptides in Autoimmune Diseases.",
+        "Year": "2020",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/32457759/",
+        "Appearance": 1,
+        "Referencing": [
+            "/31811279/"
+        ],
+        "Layer": 1
+    },
+    "/33298891/": {
+        "Title": "Liquid biopsies and cancer omics.",
+        "Year": " ",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/33298891/",
+        "Appearance": 1,
+        "Referencing": [
+            "/32872220/"
+        ],
+        "Layer": 2
+    },
+    "/33163393/": {
+        "Title": "The Potential Gut Microbiota-Mediated Treatment Options for Liver Cancer.",
+        "Year": " ",
+        "Link": "https://pubmed.ncbi.nlm.nih.gov/33163393/",
+        "Appearance": 1,
+        "Referencing": [
+            "/32457759/"
+        ],
+        "Layer": 2
+    }
+}
