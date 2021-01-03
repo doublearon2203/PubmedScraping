@@ -29,6 +29,7 @@ def let_user_pick(options):
     print("Please choose:")
     for idx, element in enumerate(options):
         print("{}) {}".format(idx+1,element))
+    print("\n")
     i = input("Enter number: ")
     try:
         if 0 < int(i) <= len(options):
@@ -53,6 +54,7 @@ if __name__ == "__main__":
         print("\n")
 
         if pick == 1:
+            print("-----------------------------------------------------")
             db_name = input("Input name for database (No spaces): ")
             db_path = f"Results/{db_name}.json"
             database = scrape()
@@ -61,12 +63,16 @@ if __name__ == "__main__":
             display(db_path)
 
         if pick == 2:
+            print("-----------------------------------------------------")
             dirlist = os.listdir("Results")
-
-            db_path = let_user_pick(dirlist)
+            dirlist = [elem[:-5] for elem in dirlist]
+            ID = let_user_pick(dirlist)
+            db_path = f"Results\{dirlist[ID-1]}.json" 
+            # print(db_path)
             display(db_path)
         
         if pick == 3:
+            print("-----------------------------------------------------")
             webpath = input("Input chromium Webbrowser path: ")
             webpath = webpath + "\chromedriver.exe"
 
@@ -74,6 +80,7 @@ if __name__ == "__main__":
                 json.dump({"path": webpath}, f, indent=4)
 
         if pick == 4:
+            print("-----------------------------------------------------")
             print('Closing')
             break
 
